@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Water Intake Tracker</string>
+
+    <!-- Navigation -->
+    <string name="title_log">Log</string>
+    <string name="title_dashboard">Dashboard</string>
+
+    <!-- Log screen -->
+    <string name="hint_amount">Amount (oz)</string>
+    <string name="hint_notes">Notes (optional)</string>
+    <string name="save_entry">Log Water</string>
+    <string name="history">History</string>
+    <string name="empty_list">No entries yet — log your first glass!</string>
+    <string name="entry_saved">Entry saved</string>
+    <string name="error_invalid_amount">Enter an amount greater than 0</string>
+    <string name="amount_format">💧 %1$s oz</string>
+    <string name="today_total_format">Today: %1$s oz</string>
+
+    <!-- Dashboard -->
+    <string name="today">Today</string>
+    <string name="today_label">Today</string>
+    <string name="oz_value">%1$s oz</string>
+    <string name="goal_remaining">%1$s oz to go to reach your %2$s oz goal</string>
+    <string name="goal_reached">🎉 Daily goal of %1$s oz reached!</string>
+    <string name="last_7_days">Last 7 days</string>
+    <string name="week_total">%1$s oz this week · dashed line = daily goal</string>
+    <string name="stats">Stats</string>
+    <string name="stat_entries">Total entries</string>
+    <string name="stat_avg_entry">Average per entry</string>
+    <string name="stat_daily_avg">Daily average</string>
+    <string name="stat_best_day">Best day</string>
+    <string name="stat_streak">Current streak</string>
+    <string name="stat_all_time">All-time total</string>
+
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+</resources>
